@@ -1,0 +1,84 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-body{
+    background-color: #e5e5e5 !important;
+    box-shadow: 3px 4px 10px 1px #c7c6c6;
+
+}
+.main-body h3{
+    color: #fca311;
+}
+.main-body label{
+    color: #14213d;
+    
+}
+.main-body button{
+    background-color: #14213d;
+    color: #e5e5e5;
+    font-size: 14px;
+
+}
+.main-body button:hover{
+    background-color: #fca311;
+    color:  #14213d;
+}
+th{
+    background-color: #fca311 !important;
+    color: #14213d;
+}
+section{
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+section h1{
+    animation: customAni 2s ease 0s infinite normal none;
+    font-size: 30px;
+    color: #14213d;
+}
+section h1 span{
+  background-color: #fca311;
+  padding-block: 5px;
+  padding-inline:15px ;
+}
+@keyframes customAni {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.1);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  #tableBody .delete{
+    background-color: #e5e5e5;
+    color: #fca311;
+    border: none;
+  }
+  #tableBody .delete:hover{
+    color: red;
+  }
+  #tableBody .visit{
+    background-color: #14213d;
+    border: none;
+  }
+  #tableBody .visit a{
+    color: #e5e5e5;
+    text-decoration: none;
+  }
+  #tableBody .visit:hover{
+    background-color: #fca311;
+  }
+  #tableBody .visit:hover a{
+    color: #14213d;
+  }
+  #tableBody td{
+    color: #14213d !important;
+  }
